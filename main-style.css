@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Droid sans", "Helvetica", "Arial", sans-serif;
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.6em;
+}
+
+p {
+  font-family: "Droid sans", "Helvetica", "Arial", sans-serif;
+  font-size: 18px;
+}
+
+li {
+  font-family: "Droid sans", "Helvetica", "Arial", sans-serif;
+  font-size: 18px;
+}
+
+img {
+  display: block;
+  box-sizing: border-box;
+  width: 400px;
+
+  background-color: #e5e5e5;
+
+  padding: 15px;
+  border: 2px solid #cccccc;
+
+  margin: 30px auto;
+}
+
+.nav-bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #666666
+}
+
+.nav-bar-item {
+  float: left;
+}
+
+.nav-bar-item a {
+  display: block;
+  color: #e5e5e5;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.page {
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 75px;
+  margin-bottom: 75px;
+  text-align: center;
+}
+
+.label {
+  text-align: center;
+}
