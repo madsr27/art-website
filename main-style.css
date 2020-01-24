@@ -4,44 +4,13 @@
   box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Droid sans", "Helvetica", "Arial", sans-serif;
-  font-size: 2em;
-}
-
-h2 {
-  font-size: 1.6em;
-}
-
-p {
-  font-family: "Droid sans", "Helvetica", "Arial", sans-serif;
-  font-size: 18px;
-}
-
-li {
-  font-family: "Droid sans", "Helvetica", "Arial", sans-serif;
-  font-size: 18px;
-}
-
-img {
-  display: block;
-  box-sizing: border-box;
-  width: 400px;
-
-  background-color: #e5e5e5;
-
-  padding: 15px;
-  border: 2px solid #cccccc;
-
-  margin: 30px auto;
-}
-
+/* Navigation Bar */
 .nav-bar {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #666666
+  background-color: #222222
 }
 
 .nav-bar-item {
@@ -56,14 +25,53 @@ img {
   text-decoration: none;
 }
 
-.page {
-  width: 800px;
-  margin: 0 auto;
-  margin-top: 75px;
-  margin-bottom: 75px;
-  text-align: center;
+.main-images-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
-.label {
-  text-align: center;
+.main-image{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: #F09A9D;
+    /* Red */
+  }
+
+  .main-image {
+    width: 100%;
+    max-width: 100vw;
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    background-color: #F5CF8E;
+    /* Yellow */
+  }
+
+  .main-image {
+    width: 100%;
+    max-width: 50vw;
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  body {
+    background-color: #B2D6FF;
+    /* Blue */
+  }
+
+  .main-image {
+    width: 100%;
+    max-width: 25vw;
+  }
 }

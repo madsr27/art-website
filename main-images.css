@@ -1,0 +1,13 @@
+img {
+  display: block;
+  box-sizing: border-box;
+  width: 200px;
+  background-color: #e5e5e5;
+  padding: 15px;
+  border: 2px solid #cccccc;
+  margin: 30px auto;
+}
+
+.label {
+  text-align: center;
+}
