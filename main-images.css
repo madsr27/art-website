@@ -1,6 +1,7 @@
 img {
   display: block;
   box-sizing: border-box;
+  height: intrinsic;
   width: 200px;
   background-color: #e5e5e5;
   padding: 15px;
