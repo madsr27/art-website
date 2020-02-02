@@ -1,0 +1,22 @@
+.page {
+  display: flex;
+  justify-content: center;
+}
+
+.text-photo-container {
+  padding-top: 3em;
+  padding-bottom: 3em;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  max-width: 80vw;
+}
+
+.text-group {
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+  justify-content: center;
+  color: #e5e5e5;
+  font-family: 'Open Sans', sans-serif !important;
+}
