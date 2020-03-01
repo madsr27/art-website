@@ -1,6 +1,8 @@
 .page {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 100px;
 }
 
 .text-photo-container {
@@ -10,6 +12,11 @@
   display: flex;
   justify-content: center;
   max-width: 80vw;
+}
+
+.text-photo-container img {
+  width: 300px;
+  height: intrinsic;
 }
 
 .text-group {

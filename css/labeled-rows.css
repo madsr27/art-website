@@ -1,0 +1,47 @@
+#inspiration-header {
+  margin:20px;
+  color: #cccccc;
+}
+
+#insp-art-work {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 80vw;
+}
+
+.artist-name {
+  color: #cccccc;
+}
+
+.artist {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.artist-work {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.image-and-caption {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  margin-left: 20px;
+}
+
+.image-and-caption img {
+  max-height: 300px;
+  width: instrinsic;
+  margin-bottom: 10px !important;
+}
+
+.caption {
+  max-width: 250px;
+  color: #cccccc;
+}
